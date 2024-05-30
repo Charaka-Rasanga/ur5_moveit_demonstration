@@ -5,7 +5,7 @@ This project is created to demonstrate ROS MoveIt configuration. Here, I used th
 Requirements
 For this work, you need to install the Universal Robot Industrial package. Clone the Universal Robots repository (this is developed for ROS Kinetic).
 
-bash
+
 Copy code
 ~/catkin_ws/src$ git clone https://github.com/ros-industrial/universal_robot.git
 Package Description
@@ -14,11 +14,11 @@ The ur5_simple_pick_and_place package is created to pick an object from a define
 How to Run
 Launch the demo in Gazebo:
 
-bash
+
 Copy code
 $ roslaunch ur5_moveit_config demo_gazebo.launch
 Run the pick and place node:
 
-bash
+
 Copy code
 $ rosrun ur5_simple_pick_and_place pick_and_place_collision_depth_camera
