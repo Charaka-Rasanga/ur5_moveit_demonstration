@@ -11,7 +11,7 @@ For this work, you need to install the Universal Robot Industrial package. Clone
 Copy code
 ~/catkin_ws/src$ git clone https://github.com/ros-industrial/universal_robot.git
 Package Description
-The ur5_simple_pick_and_place package is created to pick an object from a defined location and place it in a target position.
+The ur5_simple_pick_and_place package is created to pick an object from a defined location and place it in a target position. That was   implemented using C++.
 
 How to Run
 Launch the demo in Gazebo:
